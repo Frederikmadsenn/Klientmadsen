@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1de3c762-4e92-4f31-b9c8-bf9bd9f301b3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/History.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Logout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Createuser.html" afterPath="$PROJECT_DIR$/Createuser.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Food.html" afterPath="$PROJECT_DIR$/Food.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Login.html" afterPath="$PROJECT_DIR$/Login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fbm-client/js/Login.js" afterPath="$PROJECT_DIR$/fbm-client/js/Login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fbm-client/js/SDK.js" afterPath="$PROJECT_DIR$/fbm-client/js/SDK.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,8 +39,8 @@
       <file leaf-file-name="SDK.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fbm-client/js/SDK.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+            <state relative-caret-position="285">
+              <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -224,12 +216,12 @@
       <workItem from="1511298208447" duration="5014000" />
       <workItem from="1511304997642" duration="38000" />
       <workItem from="1511342407855" duration="150000" />
-      <workItem from="1511344391364" duration="773000" />
+      <workItem from="1511344391364" duration="1156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27565000" />
+    <option name="totallyTimeSpent" value="27948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="98" y="23" width="1077" height="710" extended-state="0" />
@@ -614,8 +606,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fbm-client/js/SDK.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        <state relative-caret-position="285">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding />
         </state>
       </provider>
