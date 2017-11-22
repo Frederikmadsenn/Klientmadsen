@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1de3c762-4e92-4f31-b9c8-bf9bd9f301b3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/History.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Logout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Createuser.html" afterPath="$PROJECT_DIR$/Createuser.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Food.html" afterPath="$PROJECT_DIR$/Food.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Login.html" afterPath="$PROJECT_DIR$/Login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fbm-client/js/Login.js" afterPath="$PROJECT_DIR$/fbm-client/js/Login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fbm-client/js/SDK.js" afterPath="$PROJECT_DIR$/fbm-client/js/SDK.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,46 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Drinks.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Drinks.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Food.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Food.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fbm-client/js/Login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createUser.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fbm-client/js/createUser.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Drinks.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fbm-client/js/Drinks.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,13 +34,53 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SDK.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fbm-client/js/SDK.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Food.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Food.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fbm-client/js/Login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -84,15 +92,18 @@
       <list>
         <option value="$PROJECT_DIR$/fbm-client/js/Drinks.js" />
         <option value="$PROJECT_DIR$/fbm-client/js/Food.js" />
-        <option value="$PROJECT_DIR$/Food.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/nav.html" />
-        <option value="$PROJECT_DIR$/fbm-client/js/SDK.js" />
-        <option value="$PROJECT_DIR$/Createuser.html" />
         <option value="$PROJECT_DIR$/Drinks.html" />
-        <option value="$PROJECT_DIR$/Login.html" />
         <option value="$PROJECT_DIR$/fbm-client/js/createUser.js" />
+        <option value="$PROJECT_DIR$/Createuser.html" />
         <option value="$PROJECT_DIR$/fbm-client/js/Login.js" />
+        <option value="$PROJECT_DIR$/Login.html" />
+        <option value="$PROJECT_DIR$/History.html" />
+        <option value="$PROJECT_DIR$/Logout.html" />
+        <option value="$PROJECT_DIR$/Food.html" />
+        <option value="$PROJECT_DIR$/fbm-client/js/lort.js" />
+        <option value="$PROJECT_DIR$/fbm-client/js/SDK.js" />
       </list>
     </option>
   </component>
@@ -110,9 +121,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="50" />
+    <option name="x" value="98" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
+    <option name="width" value="1077" />
     <option name="height" value="710" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -131,7 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -151,10 +161,16 @@
               <item name="fbm-client" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Klienten" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Klienten" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,25 +218,31 @@
       <workItem from="1511110904933" duration="5243000" />
       <workItem from="1511195404576" duration="2291000" />
       <workItem from="1511209829788" duration="1849000" />
-      <workItem from="1511250785678" duration="2264000" />
+      <workItem from="1511250785678" duration="9886000" />
+      <workItem from="1511272120116" duration="175000" />
+      <workItem from="1511276549131" duration="1041000" />
+      <workItem from="1511298208447" duration="5014000" />
+      <workItem from="1511304997642" duration="38000" />
+      <workItem from="1511342407855" duration="150000" />
+      <workItem from="1511344391364" duration="773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12752000" />
+    <option name="totallyTimeSpent" value="27565000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="23" width="1280" height="710" extended-state="0" />
+    <frame x="98" y="23" width="1077" height="710" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19921875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24147727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -241,11 +263,156 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Drinks.html">
+    <entry file="file://$PROJECT_DIR$/fbm-client/js/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fbm-client/js/Drinks.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fbm-client/js/SDK.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="150" column="26" lean-forward="false" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/History.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fbm-client/js/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fbm-client/js/Drinks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/History.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fbm-client/js/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fbm-client/js/SDK.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="124" column="30" lean-forward="false" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fbm-client/js/Drinks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/History.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fbm-client/js/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fbm-client/js/SDK.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="109" column="10" lean-forward="true" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drinks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -261,7 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="46" column="33" lean-forward="true" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -292,7 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -300,7 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -338,7 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -373,11 +536,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fbm-client/js/SDK.js">
+    <entry file="file://$PROJECT_DIR$/Drinks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="148" column="2" lean-forward="true" selection-start-line="148" selection-start-column="2" selection-end-line="148" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Createuser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fbm-client/js/createUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -389,50 +565,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fbm-client/js/createUser.js">
+    <entry file="file://$PROJECT_DIR$/Login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="435">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/History.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/js/jquery-3.2.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144817">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Createuser.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="40" column="79" lean-forward="false" selection-start-line="40" selection-start-column="79" selection-end-line="40" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Drinks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/fbm-client/js/lort.js" />
     <entry file="file://$PROJECT_DIR$/Food.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fbm-client/js/Login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fbm-client/js/SDK.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
           <folding />
         </state>
       </provider>
