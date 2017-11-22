@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1de3c762-4e92-4f31-b9c8-bf9bd9f301b3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Login.html" afterPath="$PROJECT_DIR$/Login.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="Login.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="510">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,7 +103,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="98" />
+    <option name="x" value="83" />
     <option name="y" value="23" />
     <option name="width" value="1077" />
     <option name="height" value="710" />
@@ -133,22 +132,6 @@
             <path>
               <item name="Klienten" type="b2602c69:ProjectViewProjectNode" />
               <item name="Klienten" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Klienten" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Klienten" type="462c0819:PsiDirectoryNode" />
-              <item name="fbm-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Klienten" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Klienten" type="462c0819:PsiDirectoryNode" />
-              <item name="fbm-client" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Klienten" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Klienten" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,15 +196,15 @@
       <workItem from="1511378682310" duration="128000" />
       <workItem from="1511379090084" duration="68000" />
       <workItem from="1511379177490" duration="181000" />
-      <workItem from="1511381049580" duration="39000" />
+      <workItem from="1511381049580" duration="993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29864000" />
+    <option name="totallyTimeSpent" value="30818000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="98" y="23" width="1077" height="710" extended-state="0" />
+    <frame x="83" y="23" width="1077" height="710" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24147727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -597,8 +580,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
