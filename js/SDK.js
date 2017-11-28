@@ -106,7 +106,7 @@ const SDK = {
       SDK.Storage.remove("tokenId");
       SDK.Storage.remove("userId");
       SDK.Storage.remove("user");
-      window.location.href = "index.html";
+      window.location.href = "../index.html";
     },
     login: (username, password, cb) => {
       SDK.request({
