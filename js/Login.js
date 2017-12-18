@@ -14,7 +14,12 @@ $(document).ready(() => {
       else if (err) {
         console.log("stuff happened")
       } else {
-        window.location.href = "my-page.html";
+        var hey = JSON.parse(data);
+        console.log(hey);
+        SDK.Storage.persist("Username", hey.username);
+        SDK.Storage.persist("Password", hey.password);
+        SDK.Storage.persist("Token", hey.token);
+        window.location.href = "index.html";
       }
     });
 

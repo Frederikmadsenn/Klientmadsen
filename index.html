@@ -1,10 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/main.css">
+
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Index side</title>
 </head>
 <body>
+
+<div class="container">
+
+    <div class="row" id="nav-container">
+
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="page-header">
+                <h1>Vælg mellem mad eller drikke</h1>
+                <div id="load-test"></div>
+
+
+            </div>
+            <div>
+
+                <table>
+                    <tr>
+                        <th><img src="bagel.jpg" width="200px" height="200px" alt="Bagel"/></th>
+                        <th> <img src="Kaffe.jpg" width="200px" height="200px" alt="Kaffe"></th>
+                    </tr>
+                    <tr>
+                        <th><button style="margin-bottom: 40px" class="btn btn-default"  id="login-button"> <a href="Food.html" </a> Mad</button>
+                        </th>
+                        <th><button style="margin-bottom: 40px" class="btn btn-default" id=login-button"> <a href="Drinks.html" </a> Drikkevarer</button>
+                        </th>
+                    </tr>
+                </table>
+
+            </div>
+            <div>
+
+            </div>
+        </div>
+
+
+
+
+
+<script src="lib/js/jquery-3.2.1.js"></script>
+<script src="lib/js/bootstrap.js"></script>
+<script src="js/SDK.js"></script>
+
+
+<script>
+    SDK.User.loadNav();
+</script>
+
+
+
 
 </body>
 </html>

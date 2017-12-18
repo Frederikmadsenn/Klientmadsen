@@ -1,10 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/main.css">
+
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Drikkevarer</title>
 </head>
 <body>
+
+<div class="container">
+    <div class="row" id="nav-container">
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="page-header">
+                <h1>Drikkevarer</h1>
+
+                <div id="load-test"></div>
+            </div>
+            <table>
+                <tr>
+                    <td><img src="Kaffe.jpg" width="150px" height="150px" alt="Kaffe"/></td>
+                    <td><img src="Faxe.jpeg" width="150px" height="150px" alt="Sodavand"/></td>
+                    <th><img src="Te.jpg" width="150px" height="150px" alt="Te"/></th>
+                </tr>
+                <tr>
+                    <th><button style="margin-bottom: 40px" class="btn btn-default"  id="login-button">Køb Kaffe</button>
+                    </th>
+                    <th><button style="margin-bottom: 40px" class="btn btn-default"  id="login-button">Køb Sodavand</button>
+                    </th>
+                    <th><button style="margin-bottom: 40px" class="btn btn-default"  id="login-button">Køb Te</button>
+                    </th>
+                    <table>
+                        <tr>
+                            <th>Prisliste</th>
+                        </tr>
+                        <tr>
+                            <td>Kaffe</td>
+                            <td>10 kr.</td>
+                        </tr>
+                        <tr>
+                            <td>Sodavand</td>
+                            <td>15 kr.</td>
+                        </tr>
+                        <tr>
+                            <td>Te</td>
+                            <td>5 kr.</td>
+
+                        </tr>
+                    </table>
+
+
+            </table>
+
+            <script src="lib/js/jquery-3.2.1.js"></script>
+            <script src="lib/js/bootstrap.js"></script>
+            <script src="js/SDK.js"></script>
+
+            <script>
+                SDK.User.loadNav();
+            </script>
+
 
 </body>
 </html>
