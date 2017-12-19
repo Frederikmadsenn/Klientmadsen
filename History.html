@@ -1,10 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Kantine-App</title>
+
 </head>
 <body>
+
+<div class="container">
+
+    <div class="row" id="nav-container"></div>
+
+    <div class="modal-body">
+        <table class="table">
+            <thead>
+
+
+
+            <tr>
+                <th>Id</th>
+                <th>Dato</th>
+                <th>Ordre bestilt</th>
+                <th>Pris</th>
+                <th>Bruger ID</th>
+            </tr>
+
+
+            </thead>
+            <tbody id="History-tbody">
+            </tbody>
+        </table>
+    </div>
+
+
+
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p class="text-muted">Kantine-App 2017 - Frederik Madsen</p>
+    </div>
+</footer>
+
+<script src="lib/js/jquery-3.2.1.js"></script>
+<script src="lib/js/bootstrap.js"></script>
+<script src="js/SDK.js"></script>
+<script src="js/History.js"></script>
 
 </body>
 </html>

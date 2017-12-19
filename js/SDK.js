@@ -26,6 +26,55 @@ const SDK = {
         });
 
     },
+    Order: {
+        create: (data, cb) => {
+            SDK.request({
+                method: "POST",
+                url: "/users/order/16",
+                data: data.id,
+                headers: {authorization: SDK.Storage.load("tokenId")}
+            }, cb, (err) => {
+                if(err) return cb(err);
+
+                cb(null);
+            });
+        },
+
+        loadFood: (cb) => {
+            SDK.request({
+                method: "GET",
+                url: "/food",
+                headers: {authorization: SDK.Storage.load("token")}
+            }, (err, data) => {
+
+                let decryptedData = SDK.Crypter.encryptDecrypt(data);
+
+                if(err) return cb(err);
+
+                cb(null, decryptedData);
+            })
+
+        },
+
+        loadDrinks: (cb) => {
+            SDK.request({
+                method: "GET",
+                url: "/drink",
+                headers: {authorization: SDK.Storage.load("token")}
+            }, (err, data) => {
+
+                let decryptedData = SDK.Crypter.encryptDecrypt(data);
+
+                if(err) return cb(err);
+
+                cb(null, decryptedData);
+
+            });
+
+        }
+    },
+
+
     /*   Book: {
            addToBasket: (book) => {
                let basket = SDK.Storage.load("basket");
@@ -154,6 +203,22 @@ const SDK = {
 
                 });
         },
+        myReceipt: (cb) => {
+            SDK.request({
+                url: "/History",
+                method: "GET",
+                headers: {
+                    authorization: SDK.Storage.load("token")
+                }
+            }, (err, data) => {
+
+                if(err) return cb(err);
+
+                cb(null, data);
+            })
+
+        },
+
 
 
         loadNav: (cb) => {
@@ -193,7 +258,7 @@ const SDK = {
         }
     },
 
-    //Method for encrypting data to the server
+    //Method for encrypting the data to the server
     encrypt:
         (encrypt) => {
         if (encrypt !== undefined && encrypt.length !== 0) {
@@ -209,7 +274,7 @@ const SDK = {
         }
     },
 
-    //Method for decrypting data from the server
+    //Method for decrypting the data from the server
     decrypt:
         (decrypt) => {
             if (decrypt !== undefined && decrypt.length !== 0) {
