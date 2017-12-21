@@ -1,6 +1,7 @@
 $(document).ready(() => {
 
-    //SDK.User.loadNav();
+    //opret bruger funktionen er der fundet inspiration til fra Jesper og Mortens client,
+    //opret bruger funktion
 
     $("#Createbutton").click(() => {
         console.log('test');
@@ -22,7 +23,7 @@ $(document).ready(() => {
 
                 console.log(data);
                 window.location.href = "index.html";
-                SDK.Encryption.encryptDecrypt()
+
 
             }
         });

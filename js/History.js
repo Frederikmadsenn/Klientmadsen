@@ -1,7 +1,5 @@
 $(document).ready(() => {
-
-
-
+    //har prøvet at hente liste over brugerens tidligere køb
 
     const $historylist = $("#history-tbody");
 
@@ -41,6 +39,7 @@ $(document).ready(() => {
         });
 
     })
+    //navigationsbar
     SDK.User.loadNav();
 
 

@@ -1,4 +1,5 @@
 const SDK = {
+    //serverens url
     serverURL: "http://localhost:8080/api",
     request: (options, cb) => {
 
@@ -8,6 +9,7 @@ const SDK = {
                 headers[h] = (typeof options.headers[h] === 'object') ? JSON.stringify(options.headers[h]) : options.headers[h];
             });
         }
+        //Asynkront kald til server
 
         alert(JSON.stringify(options.data));
         $.ajax({
@@ -24,7 +26,7 @@ const SDK = {
                 cb({xhr: xhr, status: status, error: errorThrown});
             }
         });
-
+//ordre funktion til brugeren
     },
     Order: {
         create: (data, cb) => {
@@ -39,7 +41,7 @@ const SDK = {
                 cb(null);
             });
         },
-
+//metode til en hente maden
         loadFood: (cb) => {
             SDK.request({
                 method: "GET",
@@ -47,15 +49,15 @@ const SDK = {
                 headers: {authorization: SDK.Storage.load("token")}
             }, (err, data) => {
 
-                let decryptedData = SDK.Crypter.encryptDecrypt(data);
+
 
                 if(err) return cb(err);
 
-                cb(null, decryptedData);
+
             })
 
         },
-
+//metode til at hente drikkevarer
         loadDrinks: (cb) => {
             SDK.request({
                 method: "GET",
@@ -75,76 +77,7 @@ const SDK = {
     },
 
 
-    /*   Book: {
-           addToBasket: (book) => {
-               let basket = SDK.Storage.load("basket");
 
-               //Has anything been added to the basket before?
-               if (!basket) {
-                   return SDK.Storage.persist("basket", [{
-                       count: 1,
-                       book: book
-                   }]);
-               }
-
-               //Does the book already exist?
-               let foundBook = basket.find(b => b.book.id === book.id);
-               if (foundBook) {
-                   let i = basket.indexOf(foundBook);
-                   basket[i].count++;
-               } else {
-                   basket.push({
-                       count: 1,
-                       book: book
-                   });
-               }
-
-               SDK.Storage.persist("basket", basket);
-           },
-           findAll: (cb) => {
-               SDK.request({
-                   method: "GET",
-                   url: "/books",
-                   headers: {
-                       filter: {
-                           include: ["authors"]
-                       }
-                   }
-               }, cb);
-           },
-           create: (data, cb) => {
-               SDK.request({
-                   method: "POST",
-                   url: "/books",
-                   data: data,
-                   headers: {authorization: SDK.Storage.load("tokenId")}
-               }, cb);
-           }
-       },
-       Author: {
-           findAll: (cb) => {
-               SDK.request({method: "GET", url: "/authors"}, cb);
-           }
-       },
-       Order: {
-           create: (data, cb) => {
-               SDK.request({
-                   method: "POST",
-                   url: "/orders",
-                   data: data,
-                   headers: {authorization: SDK.Storage.load("tokenId")}
-               }, cb);
-           },
-           findMine: (cb) => {
-               SDK.request({
-                   method: "GET",
-                   url: "/orders/" + SDK.User.current().id + "/allorders",
-                   headers: {
-                       authorization: SDK.Storage.load("tokenId")
-                   }
-               }, cb);
-           }
-       },*/
 
 
     User: {
@@ -154,12 +87,14 @@ const SDK = {
         current: () => {
             return SDK.Storage.load("users");
         },
+        //lod ug funktion
         logOut: () => {
             SDK.Storage.remove("tokenId");
             SDK.Storage.remove("userId");
             SDK.Storage.remove("user");
             window.location.href = "Login.html";
         },
+        //anmodning til log in
         login: (username, password, cb) => {
             SDK.request({
                 data: {
@@ -170,7 +105,7 @@ const SDK = {
                 method: "POST"
             }, (err, data) => {
 
-                //On login-error
+                //Hvis der sker fejl vedr. log in
                 if (err) return cb(err);
 
                 SDK.Storage.persist("token", data.id);
@@ -181,6 +116,7 @@ const SDK = {
 
             });
         },
+        //anmodning til opret bruger
         createUser: (username, password, cb) => {
             SDK.request({
                     data: {
@@ -203,6 +139,7 @@ const SDK = {
 
                 });
         },
+        //kvittering på køb
         myReceipt: (cb) => {
             SDK.request({
                 url: "/History",
@@ -218,8 +155,7 @@ const SDK = {
             })
 
         },
-
-
+        //navigationsbar, inspiration fra vejledernes client dokument
 
         loadNav: (cb) => {
             $("#nav-container").load("nav.html", () => {
@@ -239,6 +175,7 @@ const SDK = {
             });
         }
     },
+    //storage funktion
     Storage: {
         prefix: "testSDK",
         persist: (key, value) => {
@@ -257,38 +194,23 @@ const SDK = {
             window.localStorage.removeItem(SDK.Storage.prefix + key);
         }
     },
+    //kryptering
+    Crypter: {
 
-    //Method for encrypting the data to the server
-    encrypt:
-        (encrypt) => {
-        if (encrypt !== undefined && encrypt.length !== 0) {
-            //Encrypt key
-            const key = ['L', 'O', 'L'];
-            let isEncrypted = "";
-            for (let i = 0; i < encrypt.length; i++) {
-                isEncrypted += (String.fromCharCode((encrypt.charAt(i)).charCodeAt(0) ^ (key[i % key.length]).charCodeAt(0)))
+        encryptDecrypt(input)
+        {
+            var key = ['L', 'O', 'L']; //Kan være hvilken som helst "chars" og enhver str. array
+            var output = [];
+
+            for (var i = 0; i < input.length; i++) {
+                var charCode = input.charCodeAt(i) ^ key[i % key.length].charCodeAt(0);
+                output.push(String.fromCharCode(charCode));
             }
-            return isEncrypted;
-        } else {
-            return encrypt;
+            return output.join("");
         }
     },
 
-    //Method for decrypting the data from the server
-    decrypt:
-        (decrypt) => {
-            if (decrypt !== undefined && decrypt.length !== 0) {
-                //Decrypt key
-                const key = ['L', 'O', 'L'];
-                let isDecrypted = "";
-                for (let i = 0; i < decrypt.length; i++) {
-                    isDecrypted += (String.fromCharCode((decrypt.charAt(i)).charCodeAt(0) ^ (key[i % key.length]).charCodeAt(0)))
-                }
-                return isDecrypted;
-            } else {
-                return decrypt;
-            }
-        },
-
 
 };
+
+

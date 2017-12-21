@@ -16,54 +16,52 @@
 
     <div class="row" id="nav-container">
     </div>
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="page-header">
-                    <h1>Madprodukter</h1>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="page-header">
+                <h1>Madprodukter</h1>
 
-                    <div id="load-test"></div>
-    </div>
+                <div id="load-test"></div>
+            </div>
 
 
 
+            <table>
+                <tr>
+                    <td><img src="bagel.jpg" width="150px" height="150px" alt="Bagel"/></td>
+                    <td><img src="Sandwich.jpg" width="150px" height="150px" alt="Sandwich"/></td>
+                    <th><img src="Salat.jpg" width="150px" height="150px" alt="Salat"/></th>
+                </tr>
+                <tr>
+                    <th><button style="margin-bottom: 40px" class="btn btn-default order-button"  id="login-button">Køb Bagel</button>
+                    </th>
+                    <th><button style="margin-bottom: 40px" class="btn btn-default order-button"  id="login-button">Køb Sandwich</button>
+                    </th>
+                    <th><button style="margin-bottom: 40px" class="btn btn-default order-button"  id="login-button">Køb Salat</button>
+                    </th>
+
+                </tr>
                 <table>
                     <tr>
-                        <td><img src="bagel.jpg" width="150px" height="150px" alt="Bagel"/></td>
-                        <td><img src="Sandwich.jpg" width="150px" height="150px" alt="Sandwich"/></td>
-                        <th><img src="Salat.jpg" width="150px" height="150px" alt="Salat"/></th>
+                        <th>Prisliste</th>
                     </tr>
                     <tr>
-                        <th><button style="margin-bottom: 40px" class="btn btn-default"  id="login-button">Køb Bagel</button>
-                        </th>
-                        <th><button style="margin-bottom: 40px" class="btn btn-default"  id="login-button">Køb Sandwich</button>
-                        </th>
-                        <th><button style="margin-bottom: 40px" class="btn btn-default"  id="login-button">Køb Salat</button>
-                        </th>
+                        <td>Bagel</td>
+                        <td>25 kr.</td>
+                    </tr>
+                    <tr>
+                        <td>Sandwich</td>
+                        <td>25 kr.</td>
+                    </tr>
+                    <tr>
+                        <td>Salat</td>
+                        <td>15 kr.</td>
 
                     </tr>
-                    <table>
-                        <tr>
-                            <th>Prisliste</th>
-                        </tr>
-                        <tr>
-                            <td>Bagel</td>
-                            <td>25 kr.</td>
-                        </tr>
-                        <tr>
-                            <td>Sandwich</td>
-                            <td>25 kr.</td>
-                        </tr>
-                        <tr>
-                            <td>Salat</td>
-                            <td>15 kr.</td>
-
-                        </tr>
-                    </table>
-
-
                 </table>
 
 
+            </table>
 
 
 
@@ -74,13 +72,15 @@
 
 
 
-        <script src="lib/js/jquery-3.2.1.js"></script>
-        <script src="lib/js/bootstrap.js"></script>
-        <script src="js/SDK.js"></script>
-                <script src="js/Food.js"></script>
-                <script>
-                    SDK.User.loadNav();
-                </script>
+
+
+            <script src="lib/js/jquery-3.2.1.js"></script>
+            <script src="lib/js/bootstrap.js"></script>
+            <script src="js/SDK.js"></script>
+            <script src="js/Food.js"></script>
+            <script>
+                SDK.User.loadNav();
+            </script>
 
 
 

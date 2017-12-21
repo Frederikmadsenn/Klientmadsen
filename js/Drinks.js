@@ -1,6 +1,7 @@
 $(document).ready(() => {
-
+    //navigationsbar i toppen af programmet
     SDK.User.loadNav();
+    //prøver at hente liste fra databasen med drikkevarerne
 
 
     const $drikkevarerlist = $("#drikkevarer-tbody");
@@ -11,7 +12,7 @@ $(document).ready(() => {
             console.log("err");
         }
 
-        //The data is serialized JSON (even though SDK.js parses it in its succes), we must deserialize it back to JSON before looping through its properties
+        //Dataene er serialiseret JSON. Vi skal deserialisere det tilbage til JSON, før vi løber gennem dets egenskaber
         // https://stackoverflow.com/questions/7861032/loop-and-get-key-value-pair-for-json-array-using-jquery
 
         let deserializedJSON = $.parseJSON(data);
@@ -28,8 +29,8 @@ $(document).ready(() => {
             $drikkevarerlist.append(drikkeHtml);
 
         });
-
-        $(".køb-button").click(function () {
+        //prøver her at lave funktionen til knappen hvor man køber
+        $(".order-button").click(function () {
             const itemId = $(this).data("item-id");
             const item = deserializedJSON.find((item) => item.id === itemId);
 

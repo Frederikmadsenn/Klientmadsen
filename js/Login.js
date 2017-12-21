@@ -1,6 +1,6 @@
 $(document).ready(() => {
+//log in funktionen er der fundet inspiration til fra Jesper og Mortens client
 
-  //SDK.User.loadNav();
 
   $("#login-button").click(() => {
 
